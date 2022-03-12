@@ -1,0 +1,242 @@
+body{
+    font-family: sans-serif;
+    width: 992px;
+    margin: auto;
+}
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    display: inline-block;
+}
+header h1 {
+    color: #fd81c9;
+    padding-top: 60px;
+}
+nav{
+    /* border: 1px solid red; */
+    
+    margin-left: 400px;
+}
+nav ul{
+    display: flex;
+    text-transform: uppercase;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+    display: inline-flex;
+}
+
+.aside_top{
+    display: flex;
+    margin-left: 170px;
+}
+.aside_top img{}
+.aside_top h1{
+    padding-left: 90px;
+    text-transform: uppercase;
+    color: blue;
+    width: 200px;
+}
+.aside_top p{
+    padding: 0px 90px;
+    font-size: 18px;
+}
+#section_top{
+    color: white;
+    /* text-align: center; */
+    background-color: rgb(10, 216, 199);
+}
+#section_top h2{
+    padding-top: 20px;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+#section_top p{
+    width: 500px;
+    display: inline-block;
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+.main_top{
+    text-align: center;
+}
+.main_top h4{
+    color: rgb(160, 156, 148);
+}
+.main_top h2{}
+main{
+    display: flex;
+    text-align: center;
+}
+main .mid{
+    margin-left: 10px;
+    padding-left: 5px;
+    text-align: center;
+    width: 400px;
+}
+main .mid img{
+    padding-top: 5px;
+}
+main .mid h4{}
+main .mid p{}
+main .mid a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fd81c9;
+    padding-bottom: 5px;
+}
+main .end{
+    margin-left: 10px;
+}
+main .main_mid{
+    padding-top: 50px;
+    display: unset;
+    position: relative;
+}
+.aside_mid{
+    /* border: 1px solid red; */
+    /* background-color: rgb(248, 224, 10); */
+    text-align: center;
+    margin-bottom: 0;
+    /* margin: 20px 500px; */
+    position: absolute;
+    right: 1px;
+    left: 1px;
+}
+.aside_mid h4{
+    color: bisque;
+}
+.aside_mid h2{
+    color: white;
+}
+
+.section_mid{
+    padding-top: 200px;
+    background-color: rgb(248, 224, 10);
+    margin-top: 0;
+    display: flex;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.section_mid .mid_f{
+    background-color: white;
+    margin: 5px 40px;
+}
+.section_mid img{}
+.section_mid h4{
+    color: rgb(64, 157, 243);
+}
+.section_mid p{}
+.mid_sec{
+    display: inline-block;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.mid_sec img{
+    margin-left: 90px;
+}
+.mid_sec h1{
+    margin-left: 60px;
+    margin-top: 70px;
+    width: 360px;
+    color: rgb(0, 132, 255);
+}
+.mid_sec p{
+    margin-left: 60px;
+    width: 350px;
+}
+.mid_sec a{
+    margin-left: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fd81c9;
+}
+
+.sec_end{
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+.sec_end h2{
+    margin-left: 70px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.sec_end aside{
+    display: flex;
+}
+.sec_end aside p{
+    margin-left: 70px;
+    width: 340px;
+    padding-bottom: 89px;
+}
+.aside_end{
+    display: flex;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.aside_end img{
+    margin-top: 100px;
+    
+    display: inline-block;
+    padding: 0px 100px;
+    text-align: center;
+}
+.aside_end p{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer{}
+footer section{
+    background-color: #fd81c9;
+    display: flex;
+    /* text-align: center; */
+    padding-left: 200px;
+    position: relative;
+    padding-bottom: 150px;
+    color: white;
+}
+footer section h3{
+    margin-top: 70px;
+    padding-left: 90px;
+}
+footer section p{
+    padding-left: 75px;
+}
+footer section ul{
+    position: absolute;
+    display: flex;
+    left: 335px;
+    bottom: 0px;
+}
+footer section ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    
+}
+footer section ul li img{}
+
+footer aside{
+    margin:0;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer aside p{}
+footer aside p a{
+    text-decoration: none;
+    color: #fd81c9;
+}
